@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&family=Roboto&display=swap');
+
+:root {
+    font-size: 16px;
+}
+
+* {
+    box-sizing: border-box;
+    /* background-color: #191919; */
+    color: black ;
+  }  
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    font-family: 'Roboto', sans-serif;
+  }
+
+  .price-container {
+    display: flex;
+    gap: 15px;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-end;
+  }
+  
+  .price-plan-header {
+    text-align: center;
+    /* border: 2px solid red; */
+    width: 30%;
+    margin: 0 auto;
+    word-spacing: 1px ;
+    margin-bottom:  -10px;
+  }
+  .price {
+    background-color: #F86F03;
+    width: 270px;
+    padding: 3rem 0;    
+    margin-top: 3em;
+    box-shadow: 0 1px 5px 2px rgba(0,0,0,0.1);
+    /* border: 2px solid; */
+}
+  .price-title {
+    text-align: center;
+    position: relative;
+    top: -40px;
+    text-transform: capitalize;
+    font-weight: bold;
+  }
+  
+  .plan-amount {
+    /* color: white; */
+    font-weight: bolder;
+    background-color: #F5CCA0;
+    padding: 0.4em 0;
+    color: white;
+    border: 5px solid #F86F03;
+    position: relative;
+    top: -35px;
+    border-width: 15px 0 0;
+    text-align: center;
+    font-size: 2.6rem;
+}
+
+li {
+    list-style: square;
+    padding-left: 10px;
+    line-height: 1.7;
+}
+
+.plan-b button {
+  background-color: #ffc383;
+}
+
+
+button {
+    padding: 1em 4em;
+    color: white;
+    border: none;
+    text-transform: uppercase;
+    background-color: rgba(248, 111, 3, 1);
+    transition: all 0.3s ease 0;
+}
+
+button:hover {
+  background-color: rgba(248, 111, 3, 0.8);
+  transition: all 0.3s ease 0;
+}
+.plan-b  button:hover {
+  background-color: rgb(208, 90, 0);
+}
+
+a {
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+}
+
+.plan-a , .plan-c {
+    background-color: white;
+}
+
+.plan-b  * {
+color: white;
+align-self: flex-start;
+}
+
+footer {
+  background-color: #001C30;
+  width: 100%;
+  padding: 1em 0;
+  margin-top: 4em;
+}
+
+footer > a {
+  text-transform: uppercase;
+  text-decoration: underline;
+  color: rgb(245, 198, 161);
+}
+
+footer > a > span {
+  color: white;
+  padding: 0 0.5em;
+  text-transform: capitalize;
+}
+
